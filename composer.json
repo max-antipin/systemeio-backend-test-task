@@ -1,7 +1,7 @@
 {
-    "name": "systemeio/test-task-template",
+    "name": "max-antipin/systemeio-test-task-template",
     "type": "project",
-    "description": "A bare bones Symfony app template with Docker support",
+    "description": "A backend developer challenge",
     "minimum-stability": "stable",
     "prefer-stable": true,
     "require": {
@@ -66,5 +66,10 @@
             "allow-contrib": false,
             "require": "6.4.*"
         }
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^2.0",
+        "phpunit/phpunit": "^11.4",
+        "squizlabs/php_codesniffer": "^3.11"
     }
 }
